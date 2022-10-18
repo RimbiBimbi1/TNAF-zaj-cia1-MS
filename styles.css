@@ -1,0 +1,39 @@
+.section1{
+     display: flex;
+     margin-left: 10vw;
+     margin-right: 10vw;
+
+     padding: 15px;
+     background: bisque;
+    color: brown;
+ }
+
+.section2{
+    display: flex;
+    margin-left: 10vw;
+    margin-right: 10vw;
+
+    padding: 15px;
+    background: darkkhaki;
+    color: crimson;
+}
+
+.section3{
+    display: flex;
+    margin-left: 10vw;
+    margin-right: 10vw;
+
+    padding: 15px;
+    background: darkgray;
+    color: indigo;
+}
+
+li:nth-child(0){
+    font-size: 12px;
+}
+li:nth-child(1){
+    font-size: 14px;
+}
+li:nth-child(2){
+     font-size: 16px;
+}
