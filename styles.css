@@ -1,0 +1,67 @@
+body{
+    box-sizing: border-box !important;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+
+.sectionBox{
+    display: block;
+    max-width: 100%;
+}
+
+.inlineBlock{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.section {
+    display: flex;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    flex-direction: column;
+
+    padding: 15px;
+}
+
+.section:nth-child(3n+1){
+    background: bisque;
+}
+.section:nth-child(3n+2){
+    background: darkkhaki;
+}
+.section:nth-child(3n){
+    background: darkgray;
+}
+
+
+.myLi1:nth-child(3n){
+    color: blueviolet;
+}
+
+.myLi1:nth-child(3n+1){
+    color: darkgreen;
+}
+
+.myLi1:nth-child(3n+2){
+    color: brown;
+}
+
+
+.myLi2:nth-child(3n){
+    font-size: 16px;
+}
+
+.myLi2:nth-child(3n+1){
+    font-size: 12px;
+}
+
+.myLi2:nth-child(3n+2){
+     font-size: 14px;
+ }
+
+
+
