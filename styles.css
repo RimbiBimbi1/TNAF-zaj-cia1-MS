@@ -1,47 +1,67 @@
+body{
+    box-sizing: border-box !important;
+}
+
 img{
     width: 300px;
     height: 300px;
 }
 
-.section1{
-     display: flex;
-     margin-left: 10vw;
-     margin-right: 10vw;
+.sectionBox{
+    display: block;
+    max-width: 100%;
+}
 
-     padding: 15px;
-     background: bisque;
-    color: brown;
- }
+.inlineBlock{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
 
-.section2{
+.section {
     display: flex;
     margin-left: 10vw;
     margin-right: 10vw;
+    flex-direction: column;
 
     padding: 15px;
+}
+
+.section:nth-child(3n+1){
+    background: bisque;
+}
+.section:nth-child(3n+2){
     background: darkkhaki;
-    color: crimson;
 }
-
-.section3{
-    display: flex;
-    margin-left: 10vw;
-    margin-right: 10vw;
-
-    padding: 15px;
+.section:nth-child(3n){
     background: darkgray;
-    color: indigo;
 }
 
-.myLi:nth-child(3n){
+
+.myLi1:nth-child(3n){
+    color: blueviolet;
+}
+
+.myLi1:nth-child(3n+1){
+    color: darkgreen;
+}
+
+.myLi1:nth-child(3n+2){
+    color: brown;
+}
+
+
+.myLi2:nth-child(3n){
     font-size: 16px;
 }
 
-.myLi:nth-child(3n+1){
+.myLi2:nth-child(3n+1){
     font-size: 12px;
 }
 
-.myLi:nth-child(3n+2){
+.myLi2:nth-child(3n+2){
      font-size: 14px;
  }
+
+
 
